@@ -23,8 +23,8 @@ body {
 .top-nav-inner {
   align-items: center;
   display: flex;
-  gap: 1.1rem;
-  height: 74px;
+  gap: clamp(0.35rem, 0.8vw, 1rem);
+  min-height: 74px;
   margin: 0 auto;
   max-width: 1360px;
   padding: 0 20px;
@@ -54,7 +54,7 @@ body {
   align-items: center;
   display: flex;
   flex: 1;
-  gap: 0.2rem;
+  gap: clamp(0.06rem, 0.15vw, 0.2rem);
   min-width: 0;
 }
 
@@ -64,7 +64,7 @@ body {
 
 .nav-links a {
   color: #fff;
-  font-size: 31px;
+  font-size: clamp(14px, 1.07vw, 18px);
   font-weight: 600;
   letter-spacing: -0.2px;
   text-decoration: none;
@@ -75,7 +75,7 @@ body {
   border-radius: 14px;
   display: inline-flex;
   gap: 8px;
-  padding: 10px 12px;
+  padding: clamp(8px, 0.5vw, 10px) clamp(7px, 0.58vw, 12px);
   transition: background-color 0.2s ease;
 }
 
@@ -145,9 +145,9 @@ body {
   color: #1c1d21;
   cursor: default;
   font-family: inherit;
-  font-size: 29px;
+  font-size: clamp(14px, 0.95vw, 18px);
   font-weight: 500;
-  padding: 11px 24px;
+  padding: clamp(8px, 0.5vw, 11px) clamp(14px, 1.1vw, 24px);
 }
 
 .profile-btn {
@@ -252,27 +252,15 @@ h1 {
 
 @media (max-width: 1520px) {
   .top-nav-inner {
-    gap: 1rem;
     padding-inline: 18px;
   }
 
   .logo img {
     height: 40px;
+  }
+
   .logo {
     font-size: 24px;
-  }
-
-  .nav-links a {
-    font-size: 25px;
-  }
-
-  .nav-item > a {
-    padding: 11px 10px;
-  }
-
-  .submission-btn {
-    font-size: 23px;
-    padding: 10px 20px;
   }
 
   .profile-btn {
@@ -282,22 +270,22 @@ h1 {
 }
 
 @media (max-width: 1240px) {
-  .logo {
-    font-size: 25px;
+  .top-nav-inner {
+    padding-inline: 14px;
+  }
+
+  .logo img {
+    height: 36px;
   }
 
   .nav-links a {
-    font-size: 18px;
+    font-size: clamp(12px, 1.2vw, 15px);
     letter-spacing: -0.1px;
   }
 
-  .nav-item > a {
-    padding: 8px 8px;
-  }
-
   .submission-btn {
-    font-size: 15px;
-    padding: 11px 20px;
+    font-size: clamp(12px, 1vw, 14px);
+    padding: 8px 14px;
   }
 
   .profile-btn {
@@ -320,7 +308,11 @@ h1 {
   }
 
   .logo {
-    font-size: 46px;
+    margin-right: 0;
+  }
+
+  .logo img {
+    height: 34px;
     margin-right: 0;
   }
 
@@ -330,8 +322,8 @@ h1 {
   }
 
   .submission-btn {
-    font-size: 36px;
-    padding: 10px 20px;
+    font-size: 13px;
+    padding: 8px 14px;
   }
 
   .menu-btn {
