@@ -3,62 +3,62 @@ class PsaTopNav extends HTMLElement {
     this.innerHTML = `
       <header class="top-nav">
         <div class="top-nav-inner">
-          <a class="logo" href="#" aria-label="PSA logo home">
+          <a class="logo" href="index.html" aria-label="PSA logo home">
             <img src="assets/psa-logo.svg" alt="PSA" />
           </a>
           <nav class="nav-links" aria-label="Primary Navigation">
             <div class="nav-item">
-              <a href="#">Getting Started <span class="chevron">⌄</span></a>
+              <a href="getting-started.html">Getting Started <span class="chevron">⌄</span></a>
               <div class="dropdown-menu" role="menu" aria-label="Getting Started submenu">
-                <a href="#" role="menuitem">How It Works</a>
-                <a href="#" role="menuitem">Video Tutorials</a>
-                <a href="#" role="menuitem">Grading Standards</a>
+                <a href="how-it-works.html" role="menuitem">How It Works</a>
+                <a href="video-tutorials.html" role="menuitem">Video Tutorials</a>
+                <a href="grading-standards.html" role="menuitem">Grading Standards</a>
               </div>
             </div>
 
             <div class="nav-item">
-              <a href="#">Pricing &amp; Services <span class="chevron">⌄</span></a>
+              <a href="pricing-and-services.html">Pricing &amp; Services <span class="chevron">⌄</span></a>
               <div class="dropdown-menu" role="menu" aria-label="Pricing & Services submenu">
-                <a href="#" role="menuitem">Authentication &amp; Grading</a>
-                <a href="#" role="menuitem">Active Specials</a>
-                <a href="#" role="menuitem">Collectors Club</a>
-                <a href="#" role="menuitem">PSA Verified Repacks</a>
-                <a href="#" role="menuitem">Team Store</a>
+                <a href="authentication-and-grading.html" role="menuitem">Authentication &amp; Grading</a>
+                <a href="active-specials.html" role="menuitem">Active Specials</a>
+                <a href="collectors-club.html" role="menuitem">Collectors Club</a>
+                <a href="psa-verified-repacks.html" role="menuitem">PSA Verified Repacks</a>
+                <a href="team-store.html" role="menuitem">Team Store</a>
               </div>
             </div>
 
             <div class="nav-item">
-              <a href="#">Vault &amp; Sell <span class="chevron">⌄</span></a>
+              <a href="vault-and-sell.html">Vault &amp; Sell <span class="chevron">⌄</span></a>
               <div class="dropdown-menu" role="menu" aria-label="Vault & Sell submenu">
-                <a href="#" role="menuitem">Vault</a>
-                <a href="#" role="menuitem">Sell on eBay</a>
-                <a href="#" role="menuitem">PSA Partner Offers</a>
+                <a href="vault.html" role="menuitem">Vault</a>
+                <a href="sell-on-ebay.html" role="menuitem">Sell on eBay</a>
+                <a href="psa-partner-offers.html" role="menuitem">PSA Partner Offers</a>
               </div>
             </div>
 
             <div class="nav-item">
-              <a href="#">Set Registry <span class="external">↗</span></a>
+              <a href="set-registry.html">Set Registry <span class="external">↗</span></a>
               <div class="dropdown-menu" role="menu" aria-label="Set Registry submenu">
-                <a href="#" role="menuitem">Browse Sets</a>
-                <a href="#" role="menuitem">Create Registry</a>
-                <a href="#" role="menuitem">Leaderboard</a>
+                <a href="browse-sets.html" role="menuitem">Browse Sets</a>
+                <a href="create-registry.html" role="menuitem">Create Registry</a>
+                <a href="leaderboard.html" role="menuitem">Leaderboard</a>
               </div>
             </div>
 
             <div class="nav-item">
-              <a href="#">Research <span class="chevron">⌄</span></a>
+              <a href="research.html">Research <span class="chevron">⌄</span></a>
               <div class="dropdown-menu" role="menu" aria-label="Research submenu">
-                <a href="#" role="menuitem">Cert Verification</a>
-                <a href="#" role="menuitem">Population Report</a>
-                <a href="#" role="menuitem">Item Details &amp; Pricing</a>
+                <a href="cert-verification.html" role="menuitem">Cert Verification</a>
+                <a href="population-report.html" role="menuitem">Population Report</a>
+                <a href="item-details-and-pricing.html" role="menuitem">Item Details &amp; Pricing</a>
               </div>
             </div>
 
             <div class="nav-item">
-              <a href="#">PSA Near Me <span class="chevron">⌄</span></a>
+              <a href="psa-near-me.html">PSA Near Me <span class="chevron">⌄</span></a>
               <div class="dropdown-menu" role="menu" aria-label="PSA Near Me submenu">
-                <a href="#" role="menuitem">Drop Off Events &amp; Shows</a>
-                <a href="#" role="menuitem">Dealer Directory</a>
+                <a href="drop-off-events-and-shows.html" role="menuitem">Drop Off Events &amp; Shows</a>
+                <a href="dealer-directory.html" role="menuitem">Dealer Directory</a>
               </div>
             </div>
           </nav>
