@@ -3,7 +3,6 @@ class PsaTopNav extends HTMLElement {
     this.innerHTML = `
       <header class="top-nav">
         <div class="top-nav-inner">
-          <a class="logo" href="index.html" aria-label="PSA logo home">
           <a class="logo" href="index.html" aria-label="Go to home page">
             <img src="assets/psa-logo.svg" alt="PSA" />
           </a>
