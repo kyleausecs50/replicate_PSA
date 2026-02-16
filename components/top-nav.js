@@ -4,6 +4,7 @@ class PsaTopNav extends HTMLElement {
       <header class="top-nav">
         <div class="top-nav-inner">
           <a class="logo" href="index.html" aria-label="PSA logo home">
+          <a class="logo" href="index.html" aria-label="Go to home page">
             <img src="assets/psa-logo.svg" alt="PSA" />
           </a>
           <nav class="nav-links" aria-label="Primary Navigation">
