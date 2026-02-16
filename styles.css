@@ -32,7 +32,16 @@ body {
 }
 
 .logo {
+  display: inline-flex;
   flex-shrink: 0;
+  margin-right: 8px;
+  text-decoration: none;
+}
+
+.logo img {
+  display: block;
+  height: 48px;
+  width: auto;
   font-size: 28px;
   font-style: italic;
   font-weight: 800;
@@ -247,6 +256,8 @@ h1 {
     padding-inline: 18px;
   }
 
+  .logo img {
+    height: 40px;
   .logo {
     font-size: 24px;
   }
