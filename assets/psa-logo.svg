@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="112" height="48" viewBox="0 0 112 48" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="392" height="142" viewBox="0 0 392 142" role="img" aria-labelledby="title desc">
   <title id="title">PSA logo</title>
-  <desc id="desc">White PSA text on red background.</desc>
-  <rect width="112" height="48" rx="0" fill="#e30000"/>
-  <g fill="#fff" transform="translate(18 33) skewX(-16)">
-    <path d="M0 0V-17h17c5.5 0 8.3 2.6 8.3 7.2 0 4.7-2.8 7.2-8.3 7.2H7V0H0zm7-8.2h9.2c1.6 0 2.4-.6 2.4-1.9s-.8-2-2.4-2H7v3.9z"/>
-    <path d="M30.2 0c-5.1 0-9.5-1.8-12.1-4.6l4.2-4.1c1.9 1.8 5 3.1 8.1 3.1 2.5 0 3.9-.5 3.9-1.5 0-.8-.8-1.3-2.9-1.6l-4-.6c-5.1-.8-7.7-2.9-7.7-6.6 0-4.4 3.9-7.2 10.4-7.2 4.7 0 8.7 1.4 11.3 3.8l-4 4.1c-1.8-1.4-4.4-2.2-7.2-2.2-2.2 0-3.4.5-3.4 1.4 0 .8.8 1.2 2.8 1.5l4 .6c5.7.9 7.9 3.2 7.9 6.8C41.5-2.7 37.2 0 30.2 0z"/>
-    <path d="M41.1 0l9.5-17h9.5l9.5 17h-8l-1.3-2.5H50.5L49.2 0h-8.1zm12.6-7.8h4.4l-2.2-4.3-2.2 4.3z"/>
+  <desc id="desc">White PSA letters on a red background.</desc>
+  <rect width="392" height="142" fill="#e50000"/>
+  <g fill="#fff" transform="translate(18 120)">
+    <path d="M0 0V-104h87c37 0 59 18 59 52s-22 52-59 52H34V0H0zm34-30h50c19 0 27-7 27-22s-8-22-27-22H34v44z"/>
+    <path d="M194 3c-34 0-66-12-84-33l24-23c14 12 39 24 63 24 20 0 31-5 31-15 0-8-9-13-27-16l-33-5c-35-5-56-21-56-49 0-35 32-56 79-56 34 0 62 9 82 26l-23 24c-14-10-35-17-58-17-18 0-28 4-28 13 0 8 8 12 27 15l33 5c40 6 58 24 58 50 0 36-33 57-88 57z"/>
+    <path d="M268 0l58-104h51l58 104h-39l-10-20h-68l-10 20h-40zm66-46h37l-19-36-18 36z"/>
+    <text x="346" y="-8" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">®</text>
   </g>
-  <circle cx="93" cy="33" r="1.8" fill="#fff"/>
 </svg>
