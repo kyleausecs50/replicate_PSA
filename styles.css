@@ -32,13 +32,16 @@ body {
 }
 
 .logo {
+  display: inline-flex;
   flex-shrink: 0;
-  font-size: 42px;
-  font-style: italic;
-  font-weight: 800;
-  letter-spacing: -1px;
-  line-height: 1;
   margin-right: 8px;
+  text-decoration: none;
+}
+
+.logo img {
+  display: block;
+  height: 48px;
+  width: auto;
 }
 
 .nav-links {
@@ -247,8 +250,8 @@ h1 {
     padding-inline: 18px;
   }
 
-  .logo {
-    font-size: 32px;
+  .logo img {
+    height: 40px;
   }
 
   .nav-links a {
